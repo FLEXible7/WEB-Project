@@ -105,9 +105,9 @@ form
     height: 42px;
     background: #F9F0DA;
     padding-left: 15px;
-  }
-  .search button
-  {
+}
+.search button
+{
     height: 26px;
     width: 26px;
     position: absolute;
@@ -115,12 +115,18 @@ form
     right: 8px;
     background: #2e4555;
     cursor: pointer;
-  }
-  .search button:before
-  {
+}
+.search button:before
+{
     content: "\f105";
     font-family: FontAwesome;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-  }
+}
+
+.link, .link:hover
+{
+    color: white;
+    text-decoration: none;
+}
