@@ -29,7 +29,7 @@ header {
 
 }
 header a { margin-left: 20px; }
-header h1, header nav { display: inline-block; }
+header h1, h2, header nav { display: inline-block; }
 
 header::after
 {
