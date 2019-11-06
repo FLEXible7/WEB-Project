@@ -61,7 +61,7 @@ header::after
 {
     position:relative;
     margin:0 auto;
-    width:75%;
+    width:80%;
     height:1200px;
     display: grid;
     grid-gap: 18px;

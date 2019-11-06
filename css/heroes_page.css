@@ -1,14 +1,18 @@
-.hero-grid { margin: 0 -1px 0 -1px; }
+.hero-grid
+{
+    margin: 0 -1px 0 -1px;
+
+}
 .hero-grid .hero
 {
     cursor: pointer;
     display: inline-block;
-    width: 12.27%;
+    width: 190px;
     height: 64px;
     background-size: cover !important;
     background-repeat: no-repeat;
     position: relative;
-    margin: 0 1px 0 1px;
+    margin: 0 auto;
 }
 
 .hero-grid .hero .name
