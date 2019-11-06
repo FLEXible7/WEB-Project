@@ -65,14 +65,12 @@ header::after
     height:1200px;
     display: grid;
     grid-gap: 18px;
-    overflow: hidden;
     grid-template: repeat(4, 1fr) / repeat(2, 1fr);
     grid-auto-flow: row;
 }
 
 .main-menu_item
 {
-    text-align: center;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -80,7 +78,6 @@ header::after
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    overflow: hidden;
     transition: opacity 124ms linear, transform 250ms linear;
 }
 .m_item-ps { background-image: url(../pics/profseason.jpg); }
@@ -100,6 +97,17 @@ header::after
 
 .m_item-teams { background-image: url(../pics/teams.jpg); }
 .m_item-teams:hover { /*opacity:0.4;*/ transform: scale(1.05); }
+
+.mm_label
+{
+    position: relative;
+    bottom: -220px;
+    left: 20px;
+    color: white;
+    text-shadow: 0px 0px 2px #0a0a0a !important;
+    z-index: 100;
+    font-size: 18px;
+}
 
 form
 {
