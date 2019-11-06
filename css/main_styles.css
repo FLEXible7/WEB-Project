@@ -104,7 +104,7 @@ header::after
     bottom: -220px;
     left: 20px;
     color: white;
-    text-shadow: 0px 0px 2px #0a0a0a !important;
+    text-shadow: 2px 2px 2px #0a0a0a !important;
     z-index: 100;
     font-size: 18px;
 }
