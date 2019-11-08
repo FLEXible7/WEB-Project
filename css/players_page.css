@@ -1,0 +1,25 @@
+th {
+    font-size: 13px;
+    font-weight: normal;
+    background: #2e4555;
+    border-top: 4px solid rgb(65, 74, 85);
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 8px;
+  }
+  td {
+    background: #2e4555;
+    border-bottom: 1px solid rgb(65, 74, 85);
+    color: white;
+    border-top: 1px solid transparent;
+    padding: 8px;
+  }
+  tr:hover td { background: #1c1f24; }
+
+  
+table
+{
+    position:relative;
+    margin:0 auto;
+    width:80%;
+}
